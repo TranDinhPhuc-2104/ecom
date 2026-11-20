@@ -1,0 +1,89 @@
+# ==============================
+# Node.js
+# ==============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# ==============================
+# Environment variables (NEVER commit these)
+# ==============================
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.staging
+
+# ==============================
+# Vite / Build output
+# ==============================
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# ==============================
+# Sass / CSS cache
+# ==============================
+.sass-cache/
+*.css.map
+
+# ==============================
+# Jenkins / CI-CD
+# ==============================
+td.json
+new-td.json
+
+# ==============================
+# Docker
+# ==============================
+.dockerignore
+
+# ==============================
+# AWS
+# ==============================
+.aws/
+*.pem
+*.key
+*.crt
+
+# ==============================
+# IDE / Editor
+# ==============================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# ==============================
+# System files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Logs & Debug
+# ==============================
+*.log
+logs/
+*.tsbuildinfo
+
+# ==============================
+# Misc / Cache
+# ==============================
+.eslintcache
+.cache/
+.temp/
+/tmp/
+/coverage/
+package-lock.json.bak
